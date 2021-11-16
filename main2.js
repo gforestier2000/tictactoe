@@ -30,7 +30,7 @@ console.log("En attente d'un signal de votre part");
 setTimeout(() => {
     console.log('timeout completed'); 
     exit(0);
-}, 3000); 
+}, 20000); 
 
 
 process.on('uncaughtException', function (err) {
